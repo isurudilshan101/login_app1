@@ -14,8 +14,8 @@ class Login extends StatefulWidget
     
     return Scaffold(
       appBar: AppBar(
-        title:Text("LoginPage"),
-        backgroundColor: Colors.accents,
+        title:Text("MyAppLogin"),
+        backgroundColor: Colors.cyan,
 
       ),
     );
