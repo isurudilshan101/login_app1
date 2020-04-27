@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:login_app/ui/login.dart';
-
 
 void main(){
   runApp(MaterialApp(
-    title: "LoginPage",
-    home:Login(),
+    home:Scaffold(
+      appBar:AppBar(
+        title:Text('JSON Parse'),
+      ),
+      body:Center(
+        child: Text('Parsing...'),
+      ),
+    ) ,
   ));
 }
