@@ -1,14 +1,9 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; 
+import './ui/login.dart';
 
 void main(){
   runApp(MaterialApp(
-    home:Scaffold(
-      appBar:AppBar(
-        title:Text('JSON Parse'),
-      ),
-      body:Center(
-        child: Text('Parsing...'),
-      ),
-    ) ,
+    title:'Salon App',
+    home:Login(),
   ));
 }
