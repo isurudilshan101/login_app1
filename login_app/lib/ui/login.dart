@@ -1,3 +1,31 @@
+// import 'package:flutter/material.dart';
+
+// class Login extends StatefulWidget{
+//   @override
+//   State<StatefulWidget> createState() {
+   
+//     return LoginState();
+//   }
+
+// }
+
+// class LoginState extends State<Login>{
+//   @override
+//   Widget build(BuildContext context) {
+   
+//     return Scaffold(
+//       appBar: AppBar(
+//         title:Text('My title'),
+//         centerTitle: true,
+//         backgroundColor: Colors.blue,
+//       )
+
+//     );
+//   }
+
+// }
+
+
 import 'package:flutter/material.dart';
 
 class Login extends StatefulWidget{
@@ -8,19 +36,19 @@ class Login extends StatefulWidget{
   }
 
 }
-
 class LoginState extends State<Login>{
   @override
   Widget build(BuildContext context) {
    
     return Scaffold(
       appBar: AppBar(
-        title:Text('My title'),
+        title: Text('This is App Bar'),
         centerTitle: true,
-        backgroundColor: Colors.blue,
-      )
-      
+        backgroundColor: Colors.cyanAccent,
+      ),
+      backgroundColor: Colors.deepOrange[100],
     );
+
   }
 
 }
