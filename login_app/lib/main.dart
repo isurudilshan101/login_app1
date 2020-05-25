@@ -13,7 +13,7 @@ import './ui/login.dart';
 void main(){
   runApp(MaterialApp(
     title:'PracticeApp',
-    home:Login();
+    home:Login(),
     
       ));
     }
