@@ -101,23 +101,33 @@ class LoginState extends State<Login>{
   
 
         // ),
-      child:Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+      // child:Row(
+      //     mainAxisAlignment: MainAxisAlignment.center,
+      //     children: <Widget>[
+      //       Text("item 1",textDirection: TextDirection.ltr,
+      //       style:TextStyle(color:Colors.blue),),
+
+      //        Text("item 2",textDirection: TextDirection.ltr,
+      //       style:TextStyle(color:Colors.blue),),
+
+      //        Text("item 3",textDirection: TextDirection.ltr,
+      //       style:TextStyle(color:Colors.blue),),
+
+      //        Text("item 4",textDirection: TextDirection.ltr,
+      //       style:TextStyle(color:Colors.blue),),
+      //     ],
+      // ),
+
+      child:Stack(
+          alignment: Alignment.bottomCenter,
           children: <Widget>[
-            Text("item 1",textDirection: TextDirection.ltr,
-            style:TextStyle(color:Colors.blue),),
+            const Text("isuru"),
+            const Text("dilshan"),
+            const Text("kumara"),
+            const Text("herath"),
 
-             Text("item 2",textDirection: TextDirection.ltr,
-            style:TextStyle(color:Colors.blue),),
-
-             Text("item 3",textDirection: TextDirection.ltr,
-            style:TextStyle(color:Colors.blue),),
-
-             Text("item 4",textDirection: TextDirection.ltr,
-            style:TextStyle(color:Colors.blue),),
           ],
       ),
-     
         
         ),
 
