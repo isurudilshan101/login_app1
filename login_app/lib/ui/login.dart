@@ -46,6 +46,11 @@ class LoginState extends State<Login>{
         title: Text('This is App Bar'),
         centerTitle: true,
         backgroundColor: Colors.cyanAccent,
+
+        actions: <Widget>[
+          IconButton(icon: Icon(Icons.send),
+          onPressed: null,),
+        ],
       ),
       //backgroundColor: Colors.deepOrange[100],
       body: Container(
