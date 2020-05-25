@@ -49,7 +49,7 @@ class LoginState extends State<Login>{
 
         actions: <Widget>[
           IconButton(icon: Icon(Icons.send),
-          onPressed: null,),
+          onPressed: ()=>debugPrint(" Icon Tapped!!!"),),
         ],
       ),
       //backgroundColor: Colors.deepOrange[100],
@@ -123,16 +123,16 @@ class LoginState extends State<Login>{
       //     ],
       // ),
 
-      child:Stack(
-          alignment: Alignment.bottomCenter,
-          children: <Widget>[
-            const Text("isuru"),
-            const Text("dilshan"),
-            const Text("kumara"),
-            const Text("herath"),
+      //child:Stack(
+      //     alignment: Alignment.bottomCenter,
+      //     children: <Widget>[
+      //       const Text("isuru"),
+      //       const Text("dilshan"),
+      //       const Text("kumara"),
+      //       const Text("herath"),
 
-          ],
-      ),
+      //     ],
+      // ),
         
         ),
 
