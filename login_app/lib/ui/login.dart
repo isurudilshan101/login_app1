@@ -48,6 +48,10 @@ class LoginState extends State<Login>{
     print("search button tapped  new");
   }
 
+  void _missed(){
+    print("missed button");
+  }
+
   @override
   Widget build(BuildContext context) {
    
@@ -183,7 +187,11 @@ class LoginState extends State<Login>{
         
         ),
 
-
+              floatingActionButton: FloatingActionButton(
+                onPressed:_missed ,
+                backgroundColor: Colors.lightGreen,
+                tooltip: 'Going Up',
+                child:Icon(Icons.call_missed),),
 
               bottomNavigationBar:BottomNavigationBar(
               items:[
