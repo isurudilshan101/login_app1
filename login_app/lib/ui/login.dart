@@ -179,10 +179,11 @@ class LoginState extends State<Login>{
       //     ],
       // ),
 
-        
-        
+
         
         ),
+
+
 
               bottomNavigationBar:BottomNavigationBar(
               items:[
@@ -190,7 +191,7 @@ class LoginState extends State<Login>{
               BottomNavigationBarItem(icon:Icon(Icons.add),title:Text("isuru")),
               BottomNavigationBarItem(icon:Icon(Icons.add),title:Text("ddilshan")),
               
-            ]
+            ],
           ),
       
     );
