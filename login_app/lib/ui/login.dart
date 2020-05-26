@@ -88,6 +88,13 @@ class LoginState extends State<Login>{
             fontWeight: FontWeight.w400,
             ),
             ),
+
+                InkWell(
+                child:Text("BUTTON"),
+                onTap: ()=>debugPrint("Button tapped"),
+
+          ),
+
           ],
         ),
        
@@ -167,6 +174,7 @@ class LoginState extends State<Login>{
 
       //     ],
       // ),
+     
         
         ),
 
