@@ -91,9 +91,13 @@ class LoginState extends State<Login>{
 
                 InkWell(
                 child:Text("BUTTON"),
+                
                 onTap: ()=>debugPrint("Button tapped"),
+                
 
           ),
+
+        
 
           ],
         ),
@@ -174,12 +178,23 @@ class LoginState extends State<Login>{
 
       //     ],
       // ),
-     
+
+        
+        
         
         ),
 
+              bottomNavigationBar:BottomNavigationBar(
+              items:[
+              BottomNavigationBarItem(icon:Icon(Icons.add),title:Text("hey")),
+              BottomNavigationBarItem(icon:Icon(Icons.add),title:Text("isuru")),
+              BottomNavigationBarItem(icon:Icon(Icons.add),title:Text("ddilshan")),
+              
+            ]
+          ),
       
     );
+
 
   }
 
