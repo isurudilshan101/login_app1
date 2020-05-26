@@ -54,7 +54,8 @@ class LoginState extends State<Login>{
    
     return Scaffold(
       appBar: AppBar(
-        title: Text('This is App Bar'),
+        title: Text('This is App Bar',
+         style: TextStyle(color: Colors.redAccent),),
         centerTitle: true,
         backgroundColor: Colors.cyanAccent,
 
@@ -71,10 +72,24 @@ class LoginState extends State<Login>{
 
         ],
       ),
+
+      backgroundColor: Colors.grey.shade100,
       //backgroundColor: Colors.deepOrange[100],
       body: Container(
-        color: Colors.brown,
+        //color: Colors.brown,
         alignment: Alignment.center,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text("Hi, isuru" , 
+            style: TextStyle(
+            color:Colors.black,
+            fontSize: 14.5,
+            fontWeight: FontWeight.w400,
+            ),
+            ),
+          ],
+        ),
        
         // child: Column(
         //   mainAxisAlignment: MainAxisAlignment.center,
